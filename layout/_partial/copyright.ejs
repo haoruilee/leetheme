@@ -1,0 +1,11 @@
+        <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Author  <a href="https://github.com/haoruilee" style="border-bottom: none;">haoruilee</a></li>
+            </ul>
+            <% if(theme.busuanzi.enable === true ) { %>
+                <span id="busuanzi_container_site_pv">PageView<span id="busuanzi_value_site_pv"></span>times</span>
+			<% } else { %>
+				<span id="busuanzi_container_site_pv"> <%- date(Date.now(), 'YYYY') %> </span> 
+			<% } %>
+        </div>
